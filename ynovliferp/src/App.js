@@ -6,7 +6,7 @@ function App() {
       <Button variant="text">Text</Button>
       page d'accueil
     </div>
-  );
+  ); 
 }
 
 export default App;
