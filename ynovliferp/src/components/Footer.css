@@ -1,0 +1,17 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2133;
+    padding: 20px;
+    color: #a381ff; /* violet */
+    text-shadow: 1px 1px 5px #a381ff; /* ombre de texte violette */
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .Footer p {
+    margin: 0;
+  }

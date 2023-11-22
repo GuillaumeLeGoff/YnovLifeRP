@@ -1,0 +1,56 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #440e7af6;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  color: #a381ff;
+  text-shadow: 1px 1px 5px #a381ff;
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+/* le reste du CSS reste le même */
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 15px;
+  height: 50px; /* vous pouvez ajuster la taille de votre logo ici */
+}
+
+.Header h1 {
+  font-size: 2em;
+}
+
+.Header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.Header nav ul li {
+  margin-right: 20px;
+}
+
+.Header nav a {
+  color: #a381ff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.2s ease-in-out;
+}
+
+.Header nav a:hover {
+  color: #6b9cff;
+}
+
+.Header nav .active {
+  color: #6b9cff;
+}
