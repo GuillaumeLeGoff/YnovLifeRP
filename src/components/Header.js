@@ -3,10 +3,6 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
-  function test() {
-    console.log("clignoter");
-    
-  }
   return (
     <header className="Header">
       <div className="logo-title">
@@ -22,7 +18,6 @@ function Header() {
           <li><NavLink to="/Support" activeClassName="active">Support</NavLink></li>
         </ul>
       </nav>
-      <button onClick={test}>test</button>
     </header>
   );
 }
