@@ -1,17 +1,16 @@
 .Footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2a2133;
-    padding: 20px;
-    color: #a381ff; /* violet */
-    text-shadow: 1px 1px 5px #a381ff; /* ombre de texte violette */
-    font-family: 'Courier New', Courier, monospace;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-  
-  .Footer p {
-    margin: 0;
-  }
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px 0; /* Set horizontal padding to 0 */
+  border-top: 2px solid #333;
+  margin-top: 30px;
+  width: 50%; /* Ensure the footer is full width */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

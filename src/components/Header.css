@@ -1,19 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #440e7af6;
-  padding: 10px;
+  background-color: #ffffff;
+  padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 100;
-  color: #a381ff;
-  text-shadow: 1px 1px 5px #a381ff;
-  font-family: 'Courier New', Courier, monospace;
-
-
+  font-family: 'Righteous', cursive;
+  color: #000000;
 }
 
+.Header nav ul li a.rejoindre-button {
+  background-color: #DE3AE1;
+  /* button background color */
+  color: #ffffff;
+  /* button text color */
+  padding: 10px 20px;
+  /* button padding */
+  border-radius: 5px;
+  /* rounded corners */
+  border: none;
+  /* no border */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  /* smooth color transition */
+}
+
+.Header nav ul li a.rejoindre-button:hover {
+  background-color: #4861E5;
+  /* button hover background color */
+  color: #000000;
+  /* button hover text color */
+}
 
 /* le reste du CSS reste le même */
 .logo-title {
@@ -23,11 +43,7 @@
 
 .logo {
   margin-right: 15px;
-  height: 50px; /* vous pouvez ajuster la taille de votre logo ici */
-}
-
-.Header h1 {
-  font-size: 2em;
+  height: 80px;
 }
 
 .Header nav ul {
@@ -37,20 +53,24 @@
 }
 
 .Header nav ul li {
-  margin-right: 20px;
+  margin-right: 60px;
 }
 
 .Header nav a {
-  color: #a381ff;
+  color: #000000;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.5em;
   transition: color 0.2s ease-in-out;
 }
 
 .Header nav a:hover {
-  color: #6b9cff;
+  color: #4861E5
 }
 
 .Header nav .active {
-  color: #6b9cff;
+  color: #4861E5
+}
+
+.Header nav{
+  margin-right: 20px;
 }

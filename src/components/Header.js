@@ -7,15 +7,18 @@ function Header() {
     <header className="Header">
       <div className="logo-title">
         <img src="./logo.png" alt="logo" className="logo" />
-        <h1>Ynov RP</h1>
       </div>
       <nav>
         <ul>
-          <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
-          <li><NavLink to="/info" activeClassName="active">Info</NavLink></li>
-          <li><NavLink to="/wiki" activeClassName="active">Wiki</NavLink></li>
+          <li><NavLink to="/" exact activeClassName="active">Accueil</NavLink></li>
+          <li><NavLink to="/info" activeClassName="active">Réglement</NavLink></li>
+          <li><NavLink to="/wiki" activeClassName="active">Comment jouer</NavLink></li>
           <li><NavLink to="/discord" activeClassName="active">Discord</NavLink></li>
-          <li><NavLink to="/Support" activeClassName="active">Support</NavLink></li>
+          <li>
+  <NavLink to="/Support" activeClassName="active" className="rejoindre-button">
+    Rejoindre
+  </NavLink>
+</li>
         </ul>
       </nav>
     </header>

@@ -3,9 +3,11 @@ import './Footer.css';
 
 function Footer() {
   return (
+    <div className='containerFooter'>
     <footer className="Footer">
-      <p>© 2023 GTA RP Synthwave. All rights reserved.</p>
+      <p>© 2024 YnovLifeRP. All rights reserved.</p>
     </footer>
+    </div>
   );
 }
 
