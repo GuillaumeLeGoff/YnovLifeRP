@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import './Home.css'; // Make sure the path is correct
 
 function Home() {

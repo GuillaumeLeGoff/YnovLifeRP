@@ -12,6 +12,30 @@
   padding-bottom: 150px;
 }
 
+/* Ajoutez cette règle dans votre fichier CSS */
+.loader {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+
+}
+
+img {
+  transition: transform .3s;
+}
+
+img:hover {
+  transform: scale(1.04);
+} 
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .backgroundImage {
   position: absolute;
   /* Positioned absolutely to overlay the entire container */
@@ -20,7 +44,7 @@
   opacity: 0.1;
   width: 100%;
   height: 100%;
-
+  background-attachment: fixed;
   object-fit: cover;
   /* Ensures the image covers the entire container */
   z-index: -1;
@@ -99,19 +123,19 @@
 .blocInfoImage {
   position: absolute;
   right: -40%;
-  top: 45%;
+  top: 10%;
   height: 70vh;
   border-radius: 72px;
-  transform: translateY(-50%);
+
 }
 
 .blocHistoireImage {
   position: absolute;
   right: 85%;
-  top: 45%;
+  top: 10%;
   height: 70vh;
   border-radius: 72px;
-  transform: translateY(-50%);
+
 }
 
 .blocHistoire {
